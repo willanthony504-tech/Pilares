@@ -1,8 +1,8 @@
-package herencia;
+package herencia.Ejercicio_1;
 
 public class Gato extends Animal {
-    public Gato(String nombreMascota, int edadMascota) {
-        super(nombreMascota, edadMascota);
+    public Gato(String nombreMascota, int edadMascota, String especie) {
+        super(nombreMascota, edadMascota, especie);
     }
     @Override
     public void hacerSonido() {
